@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.4.0"
+  },
+
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "node index.js",
+    "build": "cd client && npm run build",
+    "dev": "concurrently \"npm run client\" \"nodemon\""
+  },
+  "author": "Fortune",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.5",
+    "react-scripts": "4.0.3"
+  }
+}
