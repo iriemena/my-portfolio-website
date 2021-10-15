@@ -52,10 +52,7 @@ function Footer() {
           {year}
           <span> sunnytech</span>
         </Typography>
-        <Typography
-          variant="body1"
-          style={{ marginBottom: "50px", fontSize: "12px" }}
-        >
+        <Typography variant="body1" style={{ fontSize: "12px" }}>
           All rights reserved. Designed by me
         </Typography>
       </div>

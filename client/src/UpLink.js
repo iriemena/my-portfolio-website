@@ -23,8 +23,9 @@ function UpLink() {
     <IconButton>
       <ArrowUpwardIcon
         className={`${visible ? "uplink" : ""}`}
-        color="primary"
+        // color="primary"
         onClick={handleClick}
+        color="error"
       />
     </IconButton>
   );
