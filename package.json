@@ -11,9 +11,9 @@
 
   "scripts": {
     "client": "cd client && npm start",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "build": "cd client && npm install && npm run build",
-    "dev": "concurrently \"npm run client\" \"npm run start\""
+    "dev": "concurrently \"npm run client\" \"nodemon\""
   },
 
   "dependencies": {
