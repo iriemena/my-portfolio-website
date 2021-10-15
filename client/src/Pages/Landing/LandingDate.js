@@ -1,7 +1,4 @@
-import { useState, useEffect, useRef } from "react";
-import Button from "@material-ui/core/Button";
-import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
-import { IconButton } from "@material-ui/core";
+import { useState, useEffect } from "react";
 
 function LandingDate() {
   // Time
@@ -75,14 +72,6 @@ function LandingDate() {
     getDate();
     setInterval(getDate, 1000);
   }, []);
-
-  const btn = useRef(null);
-  const handleClick = (e) => {
-    window.scrollTo({
-      top: 750,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <div style={{ textAlign: "center" }}>

@@ -1,12 +1,10 @@
+import { useState } from "react";
 import { Typography, Button, Grid, Container } from "@material-ui/core";
 import TextField from "@material-ui/core/TextField";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import axios from "axios";
-import { useState } from "react";
-// import Alert from "@mui/material/Alert";
-// import AlertTitle from "@mui/material/AlertTitle";
 import Card from "@material-ui/core/Card";
 
 function Contact2() {
@@ -24,11 +22,10 @@ function Contact2() {
     axios
       .post("/send", items)
       .then((response) => {
-        console.log(response);
         setResult(response.data);
         setResult({
           success: true,
-          message: "Thanks for contacting me, I will get back to you shortly",
+          message: "Message Successfull!, I will get back to you shortly",
         });
 
         setTimeout(() => {
@@ -229,7 +226,7 @@ function Contact2() {
                 type="submit"
                 variant="contained"
                 color="primary"
-                style={{ marginBottom: "30px", float: "right" }}
+                style={{ marginBottom: "30px", width: "100%" }}
               >
                 Send Message
               </Button>

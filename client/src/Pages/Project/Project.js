@@ -58,8 +58,7 @@ function Project() {
                 >
                   <IconButton
                     onClick={
-                      () =>
-                        setProject(window.open(`${project.github} `, "_blank"))
+                      () => window.open(`${project.github} `, "_blank")
                       // setProject((window.location.href = `${project.github} `))
                     }
                     style={{ color: "black", padding: "2px" }}
@@ -67,9 +66,7 @@ function Project() {
                     <FaGithub fontSize="large" />
                   </IconButton>
                   <IconButton
-                    onClick={() =>
-                      setProject(window.open(`${project.view} `, "_blank"))
-                    }
+                    onClick={() => window.open(`${project.view} `, "_blank")}
                     style={{ color: "black", padding: "2px" }}
                   >
                     <VisibilityOutlinedIcon />

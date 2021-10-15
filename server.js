@@ -8,7 +8,6 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 4000;
 
-// app.use(express.static(path.resolve(__dirname, "../client/build")));
 // This middleware informs the express application to serve our compiled React files
 if (
   process.env.NODE_ENV === "production" ||

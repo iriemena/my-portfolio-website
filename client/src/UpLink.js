@@ -6,7 +6,6 @@ function UpLink() {
   const [visible, setVisible] = useState(false);
 
   const handleClick = () => {
-    const size = window.scrollY;
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -26,7 +25,6 @@ function UpLink() {
         className={`${visible ? "uplink" : ""}`}
         color="primary"
         onClick={handleClick}
-        color="error"
       />
     </IconButton>
   );

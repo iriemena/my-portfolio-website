@@ -5,7 +5,6 @@ import CardContent from "@material-ui/core/CardContent";
 import { ButtonGroup, Button } from "@material-ui/core";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
-// import Contact from "./Contact";
 
 function About() {
   const [button, setButton] = useState(["About", "Skills"]);

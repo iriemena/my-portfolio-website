@@ -1,13 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import AppBar from "@material-ui/core/AppBar";
-import { BrowserRouter as Router } from "react-router-dom";
 import { Toolbar, Typography } from "@material-ui/core";
 
 function NavBar() {
-  const [open, setOpen] = useState("");
   const nav = useRef();
 
   const handleClick = (e) => {

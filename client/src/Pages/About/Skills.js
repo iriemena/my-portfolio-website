@@ -31,7 +31,7 @@ function Skills() {
 
       <List>
         <Grid container spacing={2}>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -43,7 +43,7 @@ function Skills() {
               <ListItemText primary="HTML" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -55,7 +55,7 @@ function Skills() {
               <ListItemText primary="CSS" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -66,7 +66,7 @@ function Skills() {
               <ListItemText primary="Bootstrap" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -77,7 +77,7 @@ function Skills() {
               <ListItemText primary="MUI" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -88,7 +88,7 @@ function Skills() {
               <ListItemText primary="Wordpress" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -99,7 +99,7 @@ function Skills() {
               <ListItemText primary="Javascript" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -110,7 +110,7 @@ function Skills() {
               <ListItemText primary="NodeJs" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -121,7 +121,7 @@ function Skills() {
               <ListItemText primary="ExpressJs" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -132,7 +132,7 @@ function Skills() {
               <ListItemText primary="MongoDB" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
@@ -143,7 +143,7 @@ function Skills() {
               <ListItemText primary="Mongoose" />
             </ListItem>
           </Grid>
-          <Grid items xs={6} sm={4} md={3} lg={2}>
+          <Grid items xs={6} sm={4} md={3} lg={3}>
             <ListItem button>
               <ListItemAvatar>
                 <Avatar>
