@@ -94,6 +94,15 @@ const allProject = [
     ui: <SiMaterialUi />,
     bootstrap: <FaBootstrap />,
   },
+   {
+    name: "Task Tracker",
+    github: "https://github.com/iriemena/Task-Tracker",
+    view: "https://sunnytech-tasktracker.herokuapp.com/",
+    react: <SiReact />,
+    node: <DiNodejs />,
+    express: <FaNodeJs />,
+    bootstrap: <FaBootstrap />,
+  },
 ];
 
 export default allProject;
