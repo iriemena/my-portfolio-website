@@ -94,7 +94,7 @@ const allProject = [
     ui: <SiMaterialUi />,
     bootstrap: <FaBootstrap />,
   },
-   {
+  {
     name: "Task Tracker",
     github: "https://github.com/iriemena/Task-Tracker",
     view: "https://sunnytech-tasktracker.herokuapp.com/",
@@ -102,6 +102,22 @@ const allProject = [
     node: <DiNodejs />,
     express: <FaNodeJs />,
     bootstrap: <FaBootstrap />,
+  },
+  {
+    name: "Meal Recipe",
+    github: "https://github.com/iriemena/Recipe-App",
+    view: "https://sunnytechrecipe.netlify.app/",
+    html: <FaHtml5 />,
+    css: <FaCss3Alt />,
+    js: <SiJavascript />,
+  },
+  {
+    name: "Quiz App",
+    github: "https://github.com/iriemena/Quiz-App",
+    view: "https://sunnytechquiz.netlify.app/",
+    html: <FaHtml5 />,
+    css: <FaCss3Alt />,
+    js: <SiJavascript />,
   },
 ];
 
