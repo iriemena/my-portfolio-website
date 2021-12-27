@@ -86,7 +86,7 @@ const allProject = [
   },
   {
     name: "Website",
-    github: "https://github.com/iriemena/website",
+    github: "https://github.com/iriemena/my-portfolio-website",
     view: "https://sunnytech.herokuapp.com/",
     react: <SiReact />,
     node: <DiNodejs />,
