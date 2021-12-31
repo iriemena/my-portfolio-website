@@ -13,13 +13,21 @@ const allProject = [
 
   {
     name: "Menu-Shop",
-    github: "https://github.com/iriemena/menu-shop",
+    github: "https://github.com/iriemena/Todo-app",
     view: "https://menushop.netlify.app/",
     html: <FaHtml5 />,
     css: <FaCss3Alt />,
     js: <SiJavascript />,
   },
 
+  {
+    name: "Todo-App",
+    github: "https://github.com/iriemena/menu-shop",
+    view: "http://sunnytech-todo.netlify.app/",
+    html: <FaHtml5 />,
+    css: <FaCss3Alt />,
+    js: <SiJavascript />,
+  },
   {
     name: "Item Lister",
     github: "https://github.com/iriemena/Item-Lister",
@@ -64,14 +72,14 @@ const allProject = [
     js: <SiJavascript />,
   },
 
-  {
-    name: "Todo List",
-    github: "https://github.com/iriemena/todo-list",
-    view: "#",
-    react: <SiReact />,
-    css: <FaCss3Alt />,
-    ui: <SiMaterialUi />,
-  },
+  // {
+  //   name: "Todo List",
+  //   github: "https://github.com/iriemena/todo-list",
+  //   view: "#",
+  //   react: <SiReact />,
+  //   css: <FaCss3Alt />,
+  //   ui: <SiMaterialUi />,
+  // },
 
   {
     name: "Contact Manager",
