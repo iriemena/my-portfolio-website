@@ -127,6 +127,14 @@ const allProject = [
     css: <FaCss3Alt />,
     js: <SiJavascript />,
   },
+  {
+    name: "Note App",
+    github: "https://github.com/iriemena/note-app",
+    view: "https://sunnytech-note.netlify.app/",
+    html: <FaHtml5 />,
+    css: <FaCss3Alt />,
+    js: <SiJavascript />,
+  },
 ];
 
 export default allProject;
